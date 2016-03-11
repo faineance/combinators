@@ -6,4 +6,6 @@ def stateless(initial_state, actions, dispatch):
 
 
 def statelesser(initial_state, actions, dispatch):
-    return reduce(lambda state, f: f(state), (partial(dispatch[name], *args) for (name, args) in actions), initial_state)
+    return reduce(lambda state, f: f(state),
+                  (partial(dispatch[name], *args) for (name, args) in actions),
+                  initial_state)
