@@ -1,13 +1,13 @@
 from distutils.core import setup
 
 setup(
-    name='stateless',
+    name='combinators',
 
     version='0.0.2',
 
-    description='stateless',
+    description='combinators',
 
-    url='https://github.com/faineance/stateless',
+    url='https://github.com/faineance/combinators',
 
     author='faineance',
     author_email='faineance@users.noreply.github.com',
@@ -27,7 +27,7 @@ setup(
 
 
 
-    packages=['stateless'],
+    packages=['combinators'],
 
 
 

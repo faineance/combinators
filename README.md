@@ -1,1 +1,1 @@
-# stateless
+# combinators

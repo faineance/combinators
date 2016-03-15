@@ -1,4 +1,4 @@
-from stateless import stateless
+from combinators import stateless
 
 
 def actions():
